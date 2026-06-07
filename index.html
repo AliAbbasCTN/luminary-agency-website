@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Luminary – A modern, accessible, responsive web experience." />
+  <title>Luminary – Illuminate Your Future</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===================== HEADER / NAV ===================== -->
+  <header class="site-header" id="top">
+    <div class="nav-container">
+      <a href="#top" class="logo" aria-label="Luminary home">
+        <span class="logo-mark" aria-hidden="true">◈</span>
+        <span class="logo-text">Luminary</span>
+      </a>
+
+      <nav class="main-nav" id="main-nav" aria-label="Primary navigation">
+        <ul role="list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#testimonials">Stories</a></li>
+          <li><a href="#contact" class="nav-cta">Get Started</a></li>
+        </ul>
+      </nav>
+
+      <button
+        class="hamburger"
+        id="hamburger"
+        aria-controls="main-nav"
+        aria-expanded="false"
+        aria-label="Toggle navigation menu"
+      >
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="hero-orb orb-1"></div>
+        <div class="hero-orb orb-2"></div>
+        <div class="hero-grain"></div>
+      </div>
+      <div class="hero-content container">
+        <p class="hero-eyebrow">Est. 2025 · Design Studio</p>
+        <h1 id="hero-heading" class="hero-title">
+          We craft<br />
+          <em>digital worlds</em><br />
+          worth inhabiting.
+        </h1>
+        <p class="hero-sub">
+          Strategy, design, and engineering for brands that refuse to be ordinary.
+          From vision to launch — we build what others only dream.
+        </p>
+        <div class="hero-actions">
+          <a href="#work" class="btn btn-primary">Explore Our Work</a>
+          <a href="#about" class="btn btn-ghost">Our Story ↓</a>
+        </div>
+      </div>
+      <div class="hero-scroll-hint" aria-hidden="true">
+        <span>scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section class="about section" id="about" aria-labelledby="about-heading">
+      <div class="container about-grid">
+        <div class="about-text">
+          <p class="section-label">Who We Are</p>
+          <h2 id="about-heading">Crafted with purpose. <br />Built to last.</h2>
+          <p>
+            Luminary is a boutique design and technology studio born from the belief
+            that the web should feel as considered as print — and as alive as film.
+            We partner with ambitious founders and forward-thinking teams.
+          </p>
+          <p>
+            Every pixel deliberate. Every interaction intentional. Every product
+            shipped with the quiet confidence that something truly excellent has entered the world.
+          </p>
+          <a href="#services" class="btn btn-outline">What We Do →</a>
+        </div>
+        <aside class="about-stats" aria-label="Studio statistics">
+          <div class="stat-card">
+            <span class="stat-num">120+</span>
+            <span class="stat-label">Projects Delivered</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">8</span>
+            <span class="stat-label">Years of Craft</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">40+</span>
+            <span class="stat-label">Happy Clients</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">3</span>
+            <span class="stat-label">Continents Reached</span>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ===================== SERVICES ===================== -->
+    <section class="services section" id="services" aria-labelledby="services-heading">
+      <div class="container">
+        <header class="section-header">
+          <p class="section-label">What We Offer</p>
+          <h2 id="services-heading">Our Services</h2>
+          <p class="section-intro">
+            End-to-end creative and technical services, delivered with studio-level
+            attention to quality.
+          </p>
+        </header>
+
+        <div class="services-grid">
+          <article class="service-card" tabindex="0">
+            <div class="service-icon" aria-hidden="true">⬡</div>
+            <h3>Brand Identity</h3>
+            <p>Visual systems that speak before a word is read. Logos, palettes, typography, and motion language — unified.</p>
+          </article>
+          <article class="service-card" tabindex="0">
+            <div class="service-icon" aria-hidden="true">◻</div>
+            <h3>UX / UI Design</h3>
+            <p>Interfaces that feel inevitable. Research-backed, pixel-perfect, and tested on real human beings.</p>
+          </article>
+          <article class="service-card" tabindex="0">
+            <div class="service-icon" aria-hidden="true">⟡</div>
+            <h3>Web Development</h3>
+            <p>Fast, accessible, semantic code that works beautifully everywhere — from Apple Watch to ultrawide monitor.</p>
+          </article>
+          <article class="service-card" tabindex="0">
+            <div class="service-icon" aria-hidden="true">△</div>
+            <h3>Digital Strategy</h3>
+            <p>Positioning, content architecture, and conversion funnels — aligned with how your audience actually thinks.</p>
+          </article>
+          <article class="service-card" tabindex="0">
+            <div class="service-icon" aria-hidden="true">◈</div>
+            <h3>Motion & Animation</h3>
+            <p>Micro-interactions, loading sequences, and scroll storytelling that transform static pages into experiences.</p>
+          </article>
+          <article class="service-card" tabindex="0">
+            <div class="service-icon" aria-hidden="true">⬟</div>
+            <h3>Product Launch</h3>
+            <p>Full-stack launch support: landing pages, email campaigns, analytics setup, and A/B testing frameworks.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== WORK ===================== -->
+    <section class="work section" id="work" aria-labelledby="work-heading">
+      <div class="container">
+        <header class="section-header">
+          <p class="section-label">Selected Projects</p>
+          <h2 id="work-heading">Our Work</h2>
+        </header>
+
+        <div class="work-grid">
+          <article class="work-card work-card--wide">
+            <div class="work-card-inner">
+              <div class="work-img work-img-1" role="img" aria-label="Aether brand project preview"></div>
+              <div class="work-card-info">
+                <span class="work-tag">Brand Identity</span>
+                <h3>Aether Collective</h3>
+                <p>Complete visual rebrand for a luxury creative collective spanning 12 global cities.</p>
+              </div>
+            </div>
+          </article>
+          <article class="work-card">
+            <div class="work-card-inner">
+              <div class="work-img work-img-2" role="img" aria-label="Forma app project preview"></div>
+              <div class="work-card-info">
+                <span class="work-tag">Product Design</span>
+                <h3>Forma App</h3>
+                <p>Zero-to-one product design for a B2B SaaS platform with 40k users at launch.</p>
+              </div>
+            </div>
+          </article>
+          <article class="work-card">
+            <div class="work-card-inner">
+              <div class="work-img work-img-3" role="img" aria-label="Soleil editorial site preview"></div>
+              <div class="work-card-info">
+                <span class="work-tag">Web Development</span>
+                <h3>Soleil Editorial</h3>
+                <p>Award-winning editorial website combining long-form content with cinematic visuals.</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== TESTIMONIALS ===================== -->
+    <section class="testimonials section" id="testimonials" aria-labelledby="testimonials-heading">
+      <div class="container">
+        <header class="section-header">
+          <p class="section-label">Client Stories</p>
+          <h2 id="testimonials-heading">What They Say</h2>
+        </header>
+
+        <div class="testimonials-grid">
+          <article class="testimonial-card">
+            <blockquote>
+              <p>"Working with Luminary was the first time an agency truly understood our voice before we explained it. The result was more than we imagined."</p>
+            </blockquote>
+            <footer>
+              <cite>
+                <span class="cite-avatar" aria-hidden="true">S</span>
+                <div>
+                  <strong>Sofia Reyes</strong>
+                  <span>Founder, Aether Collective</span>
+                </div>
+              </cite>
+            </footer>
+          </article>
+          <article class="testimonial-card">
+            <blockquote>
+              <p>"They shipped our entire design system in 6 weeks. The quality was extraordinary and our engineering team actually loved working with it."</p>
+            </blockquote>
+            <footer>
+              <cite>
+                <span class="cite-avatar" aria-hidden="true">M</span>
+                <div>
+                  <strong>Marcus Elliot</strong>
+                  <span>CTO, Forma Technologies</span>
+                </div>
+              </cite>
+            </footer>
+          </article>
+          <article class="testimonial-card">
+            <blockquote>
+              <p>"Our site traffic tripled in two months after the redesign. But more than numbers — our team is genuinely proud to show it off now."</p>
+            </blockquote>
+            <footer>
+              <cite>
+                <span class="cite-avatar" aria-hidden="true">P</span>
+                <div>
+                  <strong>Priya Nair</strong>
+                  <span>Editor-in-Chief, Soleil</span>
+                </div>
+              </cite>
+            </footer>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT / CTA ===================== -->
+    <section class="contact section" id="contact" aria-labelledby="contact-heading">
+      <div class="container contact-inner">
+        <div class="contact-text">
+          <p class="section-label">Let's Talk</p>
+          <h2 id="contact-heading">Ready to build something extraordinary?</h2>
+          <p>Tell us about your project. We respond to every inquiry within 24 hours.</p>
+        </div>
+
+        <form class="contact-form" id="contact-form" novalidate aria-label="Contact form">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" autocomplete="name" placeholder="Jane Smith" required aria-required="true" />
+            <span class="form-error" id="name-error" role="alert" aria-live="polite"></span>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" autocomplete="email" placeholder="jane@studio.io" required aria-required="true" />
+            <span class="form-error" id="email-error" role="alert" aria-live="polite"></span>
+          </div>
+          <div class="form-group">
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Tell us about your project…" required aria-required="true"></textarea>
+            <span class="form-error" id="message-error" role="alert" aria-live="polite"></span>
+          </div>
+          <button type="submit" class="btn btn-primary btn-submit">
+            <span class="btn-label">Send Message</span>
+            <span class="btn-success" aria-live="polite" hidden>✓ Sent!</span>
+          </button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#top" class="logo" aria-label="Back to top">
+          <span class="logo-mark" aria-hidden="true">◈</span>
+          <span class="logo-text">Luminary</span>
+        </a>
+        <p>We build digital experiences that endure.</p>
+      </div>
+
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <h3>Studio</h3>
+        <ul role="list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#work">Work</a></li>
+        </ul>
+      </nav>
+
+      <nav class="footer-nav" aria-label="Contact navigation">
+        <h3>Connect</h3>
+        <ul role="list">
+          <li><a href="#contact">Get in Touch</a></li>
+          <li><a href="#testimonials">Client Stories</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-legal">
+        <p>© 2025 Luminary Studio. All rights reserved.</p>
+        <p>Crafted with care for the open web.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
